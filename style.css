@@ -113,7 +113,7 @@ nav.ui.container .ui.inverted.compact.menu .active.item {
 }
 
 .ui.vertical.stripe {
-  padding: 8em 0em;
+/*  padding: 8em 0em;*/
 }
 .ui.vertical.stripe h3 {
   font-size: 2em;
@@ -170,4 +170,25 @@ nav.ui.container .ui.inverted.compact.menu .active.item {
     margin-top: 0.5em;
     font-size: 1.5em;
   }
+}
+
+p a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+b {
+  color: #009c95;
+}
+
+#title {
+  font-size: 5em;
+}
+
+#overview {
+  padding-bottom: 200px;
+}
+
+.image {
+  object-fit: cover;
 }
