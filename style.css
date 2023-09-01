@@ -192,3 +192,7 @@ b {
 .image {
   object-fit: cover;
 }
+
+#cover {
+  margin-top: 50px;
+}
