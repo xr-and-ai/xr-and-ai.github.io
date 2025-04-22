@@ -74,6 +74,17 @@ nav.ui.container .ui.inverted.compact.menu .active.item {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.table, .item {
+  font-size: 1.33em !important;
+}
+
+.ui.rounded.image,
+.ui.rounded.image img {
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* modern browsers */
+  object-fit: cover;     /* crop & centre */
+}
+
 .ui.inverted.vertical.segment footer.ui.segment {
   height: 80px;
   width: 100%;
